@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/his_list"
     >
-
     <Button
         android:id="@+id/btn_show_his"
         android:layout_width="391dp"
@@ -14,6 +13,27 @@
         android:layout_marginTop="168dp"
         android:layout_marginEnd="16dp"
         app:backgroundTint="#00FFFFFF"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="29dp"
+        app:backgroundTint="#00FFFFFF"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="29dp"
+        app:backgroundTint="#00FFFFFF"
+        style="@style/Widget.AppCompat.Button.Borderless"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
