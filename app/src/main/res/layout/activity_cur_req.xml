@@ -7,4 +7,36 @@
     android:background="@drawable/cur_req"
     >
 
+    <Button
+        android:id="@+id/btn_cur_cur"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="61dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_cur_in_storage"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="176dp"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="29dp"
+        app:backgroundTint="#00FFFFFF"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

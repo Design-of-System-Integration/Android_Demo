@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn_cur;
     Button btn_his;
     Button btn_drive;
+    Button btn_alarm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,5 +50,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn_alarm=findViewById(R.id.btn_alarm);
+        btn_alarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AlarmActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
