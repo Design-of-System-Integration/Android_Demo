@@ -50,6 +50,14 @@
             android:name=".AlarmActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".DrivingListActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DrivingListDetailActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
