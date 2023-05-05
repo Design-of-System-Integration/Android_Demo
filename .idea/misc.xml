@@ -17,9 +17,11 @@
         <entry key="..\:/Users/hayeo/AndroidStudioProjects/Blockchain_Blackbox/app/src/main/res/layout/activity_now_video.xml" value="0.1" />
         <entry key="..\:/Users/hayeo/AndroidStudioProjects/Blockchain_Blackbox/app/src/main/res/layout/activity_other_isreq.xml" value="0.225" />
         <entry key="app/src/main/res/layout/activity_cur_cur.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/activity_cur_cur_add.xml" value="0.14858728557013118" />
         <entry key="app/src/main/res/layout/activity_cur_play.xml" value="0.23550724637681159" />
         <entry key="app/src/main/res/layout/activity_cur_storage.xml" value="0.14858728557013118" />
         <entry key="app/src/main/res/layout/activity_cur_storage_play.xml" value="0.23550724637681159" />
+        <entry key="app/src/main/res/layout/activity_his_list.xml" value="0.14858728557013118" />
         <entry key="app/src/main/res/layout/activity_his_list_play.xml" value="0.23550724637681159" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.11096014492753623" />
         <entry key="app/src/main/res/layout/activity_loading.xml" value="0.14858728557013118" />

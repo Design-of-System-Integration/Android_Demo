@@ -23,7 +23,7 @@ public class StorageActivity extends AppCompatActivity {
         btn_cur_sto_playvideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StorageActivity.this, PlayActivity.class);
+                Intent intent = new Intent(StorageActivity.this, StoPlayActivity.class);
                 startActivity(intent);
             }
         });

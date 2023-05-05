@@ -35,7 +35,7 @@
             android:exported="true">
         </activity>
         <activity
-            android:name=".PlayActivity"
+            android:name=".StoPlayActivity"
             android:exported="true">
         </activity>
         <activity
@@ -56,6 +56,14 @@
         </activity>
         <activity
             android:name=".DrivingListDetailActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AddVideoActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".HisPlayActivity"
             android:exported="true">
         </activity>
     </application>

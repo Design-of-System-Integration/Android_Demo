@@ -23,7 +23,7 @@ public class HistoryActivity extends AppCompatActivity {
         btn_show_his.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HistoryActivity.this, PlayActivity.class);
+                Intent intent = new Intent(HistoryActivity.this, HisPlayActivity.class);
                 startActivity(intent);
             }
         });
